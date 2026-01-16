@@ -5,5 +5,4 @@ permalink: /contact
 ---
 
 # Contact
-
-You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+I’m always happy to chat about science, data, or the projects I’m working on. Whether you have a question, want to discuss ideas, or are just curious, feel free to reach out [via email](mailto:bella.steinbeck8@gmail.com) or [through LinkedIn](https://www.linkedin.com/in/bella-steinbeck/).
