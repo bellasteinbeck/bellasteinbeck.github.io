@@ -3,8 +3,7 @@ title: EEG Neural Data ML Comparison for BCI Product
 excerpt: Evaluating PCA, ICA, and VAE for high-dimensional EEG classification
 ---
 
-<img src= "https://github.com/bellasteinbeck/bellasteinbeck.github.io/blob/gh-pages/assets/brain-8825819_1280.jpg" alt="Brain Illustration" width="300">
-
+<img src= "/assets/brain-8825819_1280.jpg" alt="Brain Illustration" width="300">
 
 
 **Problem:**  
