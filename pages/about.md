@@ -6,7 +6,7 @@ permalink: /about
 
 # Bella Steinbeck - About Me
 
-<img src="assets/IMG_1148.jpg" alt="My Profile" style="width:50%; border-radius:50%;">
+<img src="/assets/IMG_1148.jpg" alt="My Profile" style="width:50%; border-radius:50%;">
 
 
 Hi, I’m Bella. I'm recent Georgia Tech Matser's alum (M.S. Biology) who is interested in how science can be applied create a real impact for people, animals, and the world we share. I’ve gained hands-on experience turning complex biological data into actionable insights, whether that means analyzing experiments, identifying patterns, or communicating results in ways that others can actually use. I see data as an important tool for knowing which questions to ask and finding answers that can truly make a difference.
