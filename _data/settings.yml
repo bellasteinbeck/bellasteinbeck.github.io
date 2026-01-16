@@ -9,7 +9,7 @@ menu:
 #-------------------------------
 # Projects Section
 
-featured projects:
+projects:
 - {name: 'EEG Neural Data ML Comparison for BCI Product',   url: 'proj-1'}
 
 #-------------------------------
