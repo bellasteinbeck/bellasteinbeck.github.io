@@ -1,9 +1,32 @@
 ---
-layout: post
-title: 'Project One'
+title: EEG Neural Data ML Comparison for BCI Product
+excerpt: Evaluating PCA, ICA, and VAE for high-dimensional EEG classification
 ---
-Mauris velit metus, tempor gravida nulla eget, auctor accumsan tellus. Curabitur volutpat sed dolor quis tempus. In scelerisque aliquam felis at tincidunt. Proin non augue fringilla, [pretium justo vitae](#), maximus dui. Nunc ipsum nisi, fermentum sit amet volutpat cursus, sodales ac nisl. Quisque nec tellus sem. Cras pharetra felis non quam mollis, nec efficitur lectus aliquet. Maecenas ipsum felis, eleifend nec [semper venenatis](#), consequat ut nunc. Donec est augue, facilisis quis placerat sed, imperdiet sit amet neque. Maecenas nec risus metus. Nunc non condimentum ipsum. Phasellus consectetur dapibus massa, convallis iaculis nisi vestibulum id. Phasellus et fringilla augue. Donec consequat dui ut rutrum elementum. Aenean nisi arcu, ornare eu lacus vel, faucibus tempor tortor.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/dog.jpg" %}
+**Problem:**  
+Brain–Computer Interfaces (BCIs) are an emerging technology that enable computers to interpret neural signals, allowing users to interact with machines using brain activity alone.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-1/wall.jpg" %}
+Beyond their scientific appeal, BCIs have strong commercial and product potential across gaming, assistive technology, and biomedical devices. EEG-based BCIs are particularly compelling because they are non-invasive, relying on wearable sensors rather than surgical implants, making them far more realistic for consumer-facing products.
+
+Here, I evaluate how different dimensionality reduction techniques impact classification performance and computational respources on high-dimensional EEG time-series data (BCI Competition IV-2a dataset, motor imagery task).
+
+**Approach:**  
+- Preprocessing: Bandpass filtering (7–30 Hz), artifact removal, epoching  
+- Dimensionality reduction: PCA, ICA, Variational Autoencoder (VAE), or control group (no DR applied)
+- Classification: SVM (binary: Left vs Right hand)  
+- Evaluation: Accuracy, F1-score, inference time  
+
+![Overview Flow Chart](https://github.com/bellasteinbeck/EEG-Motor-Imagery-Binary-Classification/raw/main/figures/overview_flow_chart.png)
+
+**Results:**  
+- ICA achieved the highest accuracy (73.1%) and F1-score (~0.8)  
+- PCA offered no improvement over raw data  
+- VAE underperformed due to dataset size and hyperparameters  
+
+![Classification Results](https://github.com/yourusername/your-project-repo/raw/main/figures/final_radar_chart_compare.png)
+
+**Tools:** Python, Numpy/Pandas, MNE, Scikit-learn, PyTorch/TensorFlow, Matplotlib/Seaborn, Jupyter Notebooks  
+
+**Takeaway:** ICA provides the best balance of accuracy, interpretability, and robustness for practical EEG-based BCIs.
+
+[View GitHub Repository](https://github.com/bellasteinbeck/EEG-Motor-Imagery-Binary-Classification)
