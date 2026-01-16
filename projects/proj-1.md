@@ -3,6 +3,10 @@ title: EEG Neural Data ML Comparison for BCI Product
 excerpt: Evaluating PCA, ICA, and VAE for high-dimensional EEG classification
 ---
 
+<img src= "https://github.com/bellasteinbeck/bellasteinbeck.github.io/blob/gh-pages/assets/brain-8825819_1280.jpg" alt="Brain Illustration" width="300">
+
+
+
 **Problem:**  
 Brain–Computer Interfaces (BCIs) are an emerging technology that enable computers to interpret neural signals, allowing users to interact with machines using brain activity alone.
 
@@ -23,7 +27,7 @@ Here, I evaluate how different dimensionality reduction techniques impact classi
 - PCA offered no improvement over raw data  
 - VAE underperformed due to dataset size and hyperparameters  
 
-![Classification Results](https://github.com/yourusername/your-project-repo/raw/main/figures/final_radar_chart_compare.png)
+![Classification Results](https://github.com/bellasteinbeck/EEG-Motor-Imagery-Binary-Classification/raw/main/figures/final_radar_chart_compare.png)
 
 **Tools:** Python, Numpy/Pandas, MNE, Scikit-learn, PyTorch/TensorFlow, Matplotlib/Seaborn, Jupyter Notebooks  
 
