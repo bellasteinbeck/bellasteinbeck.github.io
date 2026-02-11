@@ -56,7 +56,7 @@ _________________________________________
 - Activity variability negatively correlates with engagement
 - Sleep metrics form a separate behavioral cluster
 
-<img src= "/assets/fitbit_correlation_matrix.png" alt="Correlation Matrix" width="300">
+<img src= "/assets/fitbit_correlation_matrix.png" alt="Correlation Matrix" width="650">
 
 Overall pattern:
 Engagement is frequency-driven and variance-sensitive.
