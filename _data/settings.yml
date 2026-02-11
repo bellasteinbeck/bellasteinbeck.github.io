@@ -11,6 +11,8 @@ menu:
 
 projects:
 - {name: 'EEG Neural Data ML Comparison for BCI Product',   url: 'proj-1'}
+- {name: 'Behavioral Patterns of High Engagement Fitness Tracker Users',   url: 'proj-2'}
+
 
 #-------------------------------
 # Contact Section
