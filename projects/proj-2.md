@@ -42,7 +42,7 @@ Implication: Habit formation > performance optimization
 
 _____________________________________
 
-3️. Sleep Regularity Differentiates Engaged Users
+3. Sleep Regularity Differentiates Engaged Users
 Among sleep loggers, high-stickiness users demonstrate:
 - Higher sleep efficiency
 - Lower bedtime and duration variability
